@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"sourceMap": false,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"noImplicitUseStrict": true,
+		"module": "commonjs",
+		"target": "es5",
+		"preserveConstEnums": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": [
+		"ServerApp/**/*.ts",
+		"ClientApp/**/*.ts"
+	]
+}
