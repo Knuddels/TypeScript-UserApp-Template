@@ -6,7 +6,6 @@
 		"build": "webpack --config webpack.config.js --display-error-details"
 	},
 	"devDependencies": {
-		"@types/core-js": "^0.9.35",
 		"@types/knuddels-userapps-api": "^1.0.0",
 		"ts-loader": "^2.0.0",
 		"typescript": "^2.2.1",
