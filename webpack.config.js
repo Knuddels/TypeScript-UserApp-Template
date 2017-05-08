@@ -4,7 +4,7 @@ module.exports = {
 		'dist/www/app': './ClientApp/Client.ts'
 	},
 	output: {
-		path: './',
+		path: __dirname + '/',
 		filename: '[name].js'
 	},
 	resolve: {
