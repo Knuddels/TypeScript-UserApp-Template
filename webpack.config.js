@@ -1,4 +1,5 @@
 module.exports = {
+	mode: 'production',
 	entry: {
 		'dist/main' : './ServerApp/Server.ts',
 		'dist/www/app': './ClientApp/Client.ts'
@@ -11,7 +12,7 @@ module.exports = {
 		extensions: [".ts"]
 	},
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.(ts)$/,
 				exclude: /node_modules/,
